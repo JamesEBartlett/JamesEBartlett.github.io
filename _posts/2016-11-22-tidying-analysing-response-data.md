@@ -11,7 +11,7 @@ If we were to do this process manually, we would split it up into several stages
 
 ## Step one: importing the data file
 
-For the script to work later on, we need to install some packages. I am a big fan of the tidyverse series of packages developed by Hadley Wickham and colleagues for data science. Therefore all of the packages we will be using can be imported using the tidyverse package. If you do not have this installed, you will need to do this first using the install.packages() function (e.g. install.packages(“tidyverse”) ).
+For the script to work later on, we need to install some packages. I am a big fan of the tidyverse series of packages developed by Hadley Wickham and colleagues for data science. Therefore all of the packages we will be using can be imported using the tidyverse package. If you do not have this installed, you will need to do this first using the `install.packages()` function (e.g. `install.packages(“tidyverse”)` ).
 
 Most experimental software will provide you with a spreadsheet of your data, and after you make sure this is a .csv file we want to import the data so that we can toy around with it. If you want to follow along with the example, you can find an example data set and the full R script on Github.
 ```R
@@ -53,7 +53,7 @@ write.csv(final_data, #final analysis ready table
 
 ## Step four: calculate the mean values for each condition
 
-At the beginning of this post, I explained that there was two within-subject IVs: one with two levels and one with three levels. This leaves us with six conditions that we want to know the average response time for. Therefore, to calculate each average we want to analyse the data for each combination of SOA and trial. We can again take advantage of the piping in the tidyverse and combine several functions together. We can create a new column called Condition using the mutate and paste0 functions to combine the Trial and SOA values together. We can then use the group_by and summarise functions to leave us with a mean response time for each condition:
+At the beginning of this post, I explained that there was two within-subject IVs: one with two levels and one with three levels. This leaves us with six conditions that we want to know the average response time for. Therefore, to calculate each average we want to analyse the data for each combination of SOA and trial. We can again take advantage of the piping in the tidyverse and combine several functions together. We can create a new column called Condition using the `mutate` and `paste0` functions to combine the Trial and SOA values together. We can then use the `group_by` and `summarise` functions to leave us with a mean response time for each condition:
 ```R
 #Get the mean RT data for each condition after combining the two condition columns
 AB_data <- final_data %>% 
