@@ -14,14 +14,15 @@ If we were to do this process manually, we would split it up into several stages
 For the script to work later on, we need to install some packages. I am a big fan of the tidyverse series of packages developed by Hadley Wickham and colleagues for data science. Therefore all of the packages we will be using can be imported using the tidyverse package. If you do not have this installed, you will need to do this first using the `install.packages()` function (e.g. `install.packages(“tidyverse”)` ).
 
 Most experimental software will provide you with a spreadsheet of your data, and after you make sure this is a .csv file we want to import the data so that we can toy around with it. If you want to follow along with the example, you can find an example data set and the full R script on Github.
-```R
+
+{% highlight R linenos=table %}
 #Load packages 
 library(tidyverse)
 
 #Read in example file 
 data1<- read.csv("RT-screening-sample.csv", 
                  header=TRUE, stringsAsFactors = FALSE)
-```
+{% endhighlight %}
 
 ## Step two: selecting correct responses 
 
