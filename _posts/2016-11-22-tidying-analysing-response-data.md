@@ -15,18 +15,19 @@ For the script to work later on, we need to install some packages. I am a big fa
 
 Most experimental software will provide you with a spreadsheet of your data, and after you make sure this is a .csv file we want to import the data so that we can toy around with it. If you want to follow along with the example, you can find an example data set and the full R script on Github.
 
-{% highlight R linenos=table %}
+```R
 #Load packages 
 library(tidyverse)
 
 #Read in example file 
 data1<- read.csv("RT-screening-sample.csv", 
                  header=TRUE, stringsAsFactors = FALSE)
-{% endhighlight %}
+```
 
 ## Step two: selecting correct responses 
 
 In behavioural experiments, it is standard practise to only analyse correct trials. When you design the experiment, you usually indicate which response is correct so that the software can code whether the response the participant provided was correct or not. This is usually in the form of a 1 for a correct response and a 0 for an incorrect response. We can take advantage of R reading this as a logical value and only select the data rows that are coded 1 (which is interpreted as TRUE in R):
+
 ```R
 #Select only correct responses 
 correct_data <- filter(data1, 
