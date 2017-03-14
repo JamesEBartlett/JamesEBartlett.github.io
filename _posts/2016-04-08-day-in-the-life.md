@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The blog lives!"
-date: 2017-03-13
+title: "Day in the Life of a Research Student"
+date: 2016-04-08
 ---
 I recently wrote a post for the research blog at Coventry University about what it is like to be a research student. It covers a typical day, what I like about being a research student, and little bits of advice for people considering postgraduate research:
 
