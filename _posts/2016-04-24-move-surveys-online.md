@@ -6,7 +6,7 @@ date: 2016-04-24
 When I was collecting data for my last project, I printed off reams upon reams of paper for my questionnaires, information sheets etc. I did not particularly like it at the time but I could not see a different way of doing it. However, when it was completed and I had a pile of paper the size of a telephone book (see image), I realised it is just not feasible long term.
 For my current project I wanted to try and get rid of as much paper as possible. Fortunately, I found out I could use Bristol Online Survey through my institution. This is quite a powerful survey platform and all of the examples included here will directly apply to BOS, but you might not have access to it. However, you could easily utilise other survey tools such as Qualtrics or Survey Monkey (for a free option) that will provide you with similar capabilities.
 
-Considering this, there are several reasons that moving your surveys online will be one of the best decisions you have made:
+### Benefits
 
 1. Firstly, that pile of paper is just one study and 35 people worth of data. Considering that pile of paper is probably the equivalent of a small tree, you can almost hear the forests screaming for mercy If you imagine the number of students and researchers across the universities that do a similar sort of thing.
 2. Organising your data collection is much simpler and there is less room for mistakes. Going to start a session and realising you have not printed out your materials is both embarrassing and a huge inconvenience. Furthermore, there is no room for you to misplace pieces of paper. Losing one or two sheets can mean the data for a whole participant is useless. Considering the time and effort each project takes, reducing the risk of losing any of your data is a consideration worth making.
@@ -14,7 +14,7 @@ Considering this, there are several reasons that moving your surveys online will
 4. Even when participants are not making your life difficult, manually inputting data takes a long period of time. You can become tired and start to make mistakes yourself which causes its own series of problems. BOS allows you to export all of your responses directly to a spreadsheet and what would normally take a couple of days, can take a matter of seconds. If you are on a tight schedule, this is definitely a bonus.
  
 
-There are clearly a number of benefits, but before you start clicking away to put your own surveys online there are a number of considerations you need to make:
+### Important considerations
 
 1. If you are running the survey yourself during a testing session, do you have internet access? It might seem a relatively silly thought but if all of your surveys are ready to go on your laptop and the room you have been allocated is analogous to a nuclear bunker, you are going to have some problems. Make sure you know where you are testing if you are running the surveys from your own laptop or it could turn into another headache.
 2. Concerning the mandatory answer response, you need to think about the questions you are asking. There may be times when a question is not applicable to some participants so you need to think if all of your participants are able to provide an answer. Similarly, some of the questions may be sensitive. In terms of the ethical implications, you cannot force someone to answer certain question so it might not be appropriate to force a response depending on what you are asking.
